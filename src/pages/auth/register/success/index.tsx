@@ -1,9 +1,10 @@
 import AuthLayout from "@/components/layouts/AuthLayout";
+import RegisterSucces from "@/components/views/RegisterSuccess";
 
 const RegisterSuccessPage = () => {
     return (
         <AuthLayout title="TixLy | Register Success">
-            <h1>Register Success</h1>
+           <RegisterSucces />
         </AuthLayout>
     )
 }
