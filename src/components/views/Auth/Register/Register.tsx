@@ -33,8 +33,8 @@ const Register = () => {
             </div>
             <Card>
                 <CardBody className="p-8">
-                    <h2 className="text-xl font-bold text-[#FB7221]">Create Account</h2>
-                    <p className="text-small mb-4">Have an account?&nbsp;
+                    <h2 className="text-2xl font-bold text-[#FB7221]">Create Account</h2>
+                    <p className="text-small mb-4 mt-2">Have an account?&nbsp;
                         <Link href="/auth/login" className="font-semibold text-[#fb7121e0]">Login here</Link>
                     </p>
                     {errors.root && (
