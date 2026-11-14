@@ -18,7 +18,7 @@ const useLogin = () => {
     const [isVisible, setIsVisible] = useState(false)
     const toggleVisibility = () => setIsVisible(!isVisible);
 
-    const callbackUrl: string = (router.query.callbackURL as string) || '/'
+    const callbackUrl: string = (router.query.callbackUrl as string) || '/'
 
     const {control, handleSubmit, formState: {errors}, reset, setError} = useForm({
         resolver: yupResolver(loginSchema)
