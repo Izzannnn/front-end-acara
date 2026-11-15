@@ -1,15 +1,5 @@
-import { Inter } from "next/font/google";
-import { Button } from "@nextui-org/react";
-import PageHead from "@/components/commons/PageHead";
-
-const inter = Inter({ subsets: ["latin"] });
+import Landing from "@/components/views/Landing";
 
 export default function Home() {
-  return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
-    <PageHead />
-     <Button color="primary">Button</Button>;
-    </main>
-  );
+  return <Landing />;
 }
